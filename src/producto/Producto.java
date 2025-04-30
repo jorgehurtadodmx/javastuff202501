@@ -47,7 +47,7 @@ public class Producto {
 
     @Override
     public String toString() {
-        return "El producto de nombre " + nombre + " y  precio " + precio + ", esta " + isDisponible();
+        return "El producto de nombre " + nombre + " y  precio " + precio + ", esta " + (disponible ? "disponible" : "No disponible");
     }
 
 }
